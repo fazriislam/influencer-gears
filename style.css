@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Be+Vietnam+Pro&family=Lato:wght@700&family=Lobster&family=Oswald:wght@700&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Be+Vietnam+Pro&family=Lato:wght@700&family=Lobster&family=Oswald:wght@700&family=Poppins:wght@300;500;700&display=swap');
 body{
     font-family: 'Anton', sans-serif;
     font-family: 'Be Vietnam Pro', sans-serif;
@@ -48,3 +48,70 @@ header div h2{
     border-radius: 41px;
     font-size: 16px;
 }
+.booking-button .fas{
+    color: #FFFFFF;
+}
+
+/* End Header Part  */
+/* Start Middle Part  */
+
+.section-title{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.grid-container{
+    width: 85%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    padding-left: 105px;
+}
+.grid-cell-container{
+    width: 329px;
+    height: 476px;
+    background:  #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.product-img{
+    margin: 16px;
+}
+.product-details{
+    margin-left: 17px;
+}
+.product-name{
+    font-size: 28px;
+    margin: 0;
+    font-weight: 500;
+}
+.product-price{
+    font-size: 24px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+.rating{
+    margin: 0;
+}
+.fas{
+    font-size: 10px;
+    color: orange;
+}
+.point-rating{
+    font-size: 12px;
+    color: #5E6366;
+    padding-left: 8px;
+}
+.shifting-info{
+    margin-top: 0;
+}
+.shifting{
+    margin: 0;
+    color: #5E6366;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: Inter;
+}
+
+/* End Middle Part  */
