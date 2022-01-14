@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Be+Vietnam+Pro&family=Lato:wght@700&family=Lobster&family=Oswald:wght@700&family=Poppins:wght@700&display=swap');
+body{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.header-title{
+    padding-left: 100px;
+}
+
+/* start Header Part  */
+header{
+    display: flex;
+    
+
+}
+.text-area{
+    width: 50%;
+    margin-top: 50px;
+    padding-left: 100px;
+}
+header div h2{
+    font-size: 52px;
+    margin-bottom: 0;
+}
+.text-area p{
+    margin-top: 13px;
+    margin-bottom: 35px;
+}
+.image-area{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.image-area img{
+    width: 70%;
+}
+.booking-button a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px 24px;
+    width: 150.71px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    border-radius: 41px;
+    font-size: 16px;
+}
