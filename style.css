@@ -205,3 +205,43 @@ footer p{
  /* End FOoter  */
 
  /* Media Query  */
+ /* For Mobile */
+ @media only screen and (max-width:688px){
+     body{
+         width: 100%;
+         /* padding: 5px 4px; */
+     }
+     .header-title{
+         padding-left: 60px;
+         padding-right: 30px;
+     }
+     header{
+         flex-direction: column;
+     }
+     .text-area{
+         padding-left: 40px;
+     }
+     .image-area{
+         margin-top: 20px;
+         padding-left: 50px;
+     }
+     .section-title{
+         text-align: left;
+         padding-left: 70px;
+     }
+     .grid-container{
+         grid-template-columns: repeat(1, 1fr);
+         padding-left: 0;
+     }
+     .more-info{
+         margin-right: 0;
+         padding-right: 40px;
+     }
+     .extra-part-container{
+         flex-direction: column;
+     }
+     .img-side img{
+         margin-left: 0px;
+         margin-right: 45px;
+     }
+ }
