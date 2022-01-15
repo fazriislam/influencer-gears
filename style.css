@@ -33,15 +33,14 @@ header div h2{
     width: 50%;
     display: flex;
     justify-content: center;
-    position: relative;
     overflow: hidden;
 }
 .image-area img{
-    width: 60%;
+    width: 60%;   
 }
 
 /* Header Transform Effect  */
-.image-area img:hover{
+header .image-area img:hover{
     transform: scale(1.5);
     transition: transform 3s ease-out;
 }
@@ -151,12 +150,13 @@ header div h2{
 }
 .img-side{
     width: 60%;
-    margin-right: 0;
-    padding: 0;
+    margin-left: 0;
+    padding-top: 20px;
+    padding-left: 0px;
 }
 .img-side img{
     width: 70%;
-    margin-left: 120px;
+    margin-left: 80px;
 }
 .our-info{
     width: 80%;
@@ -224,7 +224,6 @@ footer p{
      }
      .text-area h2{
          font-size: 28px;
-         text-align: center;
      }
      .booking-button{
          padding-left: 70px;
@@ -240,7 +239,9 @@ footer p{
      }
      .grid-container{
          grid-template-columns: repeat(1, 1fr);
+         margin-left: 23px;
          padding-left: 0;
+         padding-right: 9px;
      }
      .more-info{
          margin-right: 0;
@@ -294,7 +295,7 @@ footer p{
          font-size: 23px;
      }
      .img-side img{
-         margin-left: 20px;
+         margin-left: 16px;
      }
      footer{
          width: 100%;
