@@ -206,7 +206,7 @@ footer p{
 
  /* Media Query  */
  /* For Mobile */
- @media only screen and (max-width:688px){
+ @media only screen and (max-width: 688px){
      body{
          width: 100%;
          /* padding: 5px 4px; */
@@ -219,10 +219,19 @@ footer p{
          flex-direction: column;
      }
      .text-area{
+         width: 80%;
          padding-left: 40px;
      }
+     .text-area h2{
+         font-size: 28px;
+         text-align: center;
+     }
+     .booking-button{
+         padding-left: 70px;
+     }
      .image-area{
-         margin-top: 20px;
+         width: 80%;
+         margin-top: 50px;
          padding-left: 50px;
      }
      .section-title{
@@ -243,5 +252,17 @@ footer p{
      .img-side img{
          margin-left: 0px;
          margin-right: 45px;
+     }
+     footer{
+         width: 100%;
+     }
+ }
+
+ /* For Tablet  */
+ @media only screen and (min-width: 688px) and (max-width: 992px) {
+     body{
+         width: 100%;
+         margin: 0;
+         padding: 0;
      }
  }
